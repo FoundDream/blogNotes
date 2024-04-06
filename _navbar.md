@@ -1,5 +1,5 @@
 - [学习笔记](learningNotes/)
-- [关于我](personal/Readme)
+- [关于我](personal/Me)
 - []()
 - []()
 - []()
