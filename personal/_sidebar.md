@@ -1,1 +1,1 @@
-- [Me](/personal)
+- [关于我](personal/)
