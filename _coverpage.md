@@ -5,4 +5,4 @@
 - 欢迎您的光临
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[阅读](learningNotes/)
+[阅读](index/)

@@ -17,6 +17,7 @@
     - [Section6-文档与网站架构](learningNotes/htmlNotes/HTML介绍/Section6)
 
 - Git 学习笔记
+
   - [Section0-Before Start](learningNotes/gitNotes/Section0)
   - [Section1-Git 简介](learningNotes/gitNotes/Section1)
   - [Section2-Git 的使用](learningNotes/gitNotes/Section2)
@@ -28,3 +29,7 @@
   - [Section8-使用 GitHub](learningNotes/gitNotes/Section8)
   - [Section9-自定义 Git](learningNotes/gitNotes/Section9)
   - [Section10-使用 Source Tree](learningNotes/gitNotes/Section10)
+
+- React 学习笔记
+  - [Section0-React 基础](learningNotes/reactNotes/Section0)
+  - [Section1-表单控制](learningNotes/reactNotes/Section1)

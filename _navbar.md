@@ -1,6 +1,7 @@
+- [首页](index/)
+- [面试](interview/)
 - [学习笔记](learningNotes/)
 - [关于我](personal/Me)
-- []()
 - []()
 - []()
 - []()
