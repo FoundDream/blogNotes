@@ -1,11 +1,3 @@
-- Webpack 学习笔记
-
-  - [Section1-模块化概述](learningNotes/webpackNotes/Section1)
-  - [Section2-ES Module(Part1)](learningNotes/webpackNotes/Section2)
-  - [Section3-ES Module(Part2)](learningNotes/webpackNotes/Section3)
-  - [Section4-模块打包工具](learningNotes/webpackNotes/Section4)
-  - [Section5-WebPack(Part1)](learningNotes/webpackNotes/Section5)
-
 - HTML 学习笔记
 
   - [HTML 介绍](learningNotes/HTML介绍/)
@@ -15,6 +7,10 @@
     - [Section4-创建超链接](learningNotes/htmlNotes/HTML介绍/Section4)
     - [Section5-创建超链接](learningNotes/htmlNotes/HTML介绍/Section5)
     - [Section6-文档与网站架构](learningNotes/htmlNotes/HTML介绍/Section6)
+
+- CSS 学习笔记
+
+  - [Flex 布局](learningNotes/cssNotes/flex)
 
 - Git 学习笔记
 
@@ -31,5 +27,19 @@
   - [Section10-使用 Source Tree](learningNotes/gitNotes/Section10)
 
 - React 学习笔记
+
   - [Section0-React 基础](learningNotes/reactNotes/Section0)
   - [Section1-表单控制](learningNotes/reactNotes/Section1)
+
+- Ajax 学习笔记
+
+  - [Section0-React 基础](learningNotes/ajaxNotes/Section0)
+  - [Section1-表单控制](learningNotes/ajaxNotes/Section1)
+
+- Webpack 学习笔记
+
+  - [Section1-模块化概述](learningNotes/webpackNotes/Section1)
+  - [Section2-ES Module(Part1)](learningNotes/webpackNotes/Section2)
+  - [Section3-ES Module(Part2)](learningNotes/webpackNotes/Section3)
+  - [Section4-模块打包工具](learningNotes/webpackNotes/Section4)
+  - [Section5-WebPack(Part1)](learningNotes/webpackNotes/Section5)
