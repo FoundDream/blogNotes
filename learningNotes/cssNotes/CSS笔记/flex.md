@@ -210,5 +210,5 @@ gap, row-gap, column-gap
 
 ### 资源大全：
 
-- [文字/图片教程](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS-Tricks 文字/图片教程](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [codewhy 视频教程](https://www.bilibili.com/video/BV1pK411X7sn?p=1)
