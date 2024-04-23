@@ -51,6 +51,7 @@
 - [MDN 伪类文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
 
 - 动态伪类
+
   - a:link 未访问过
   - a:visited 已访问过
   - a:hover 悬浮在上面
@@ -58,3 +59,15 @@
   - a:focus a/input 聚焦的时候可以使用
   - 建议顺序 LVHA LVFHA
   - 如果只设置 a，相当于全部状态都一样
+
+- 伪元素
+
+  - :first-line、::first-line
+  - :first-letter、::first-letter
+  - :before、::before
+  - :after、::after
+  - 为了区分伪元素和伪类，建议伪元素使用 2 个冒号，比如::first-line
+
+- ::before 和::after 用来在一个元素的内容之前或之后插入其他内容（可以是文字、图片）
+  - 通过 content 属性来添加内容，如果 content 不设置，则不会显示
+  - 默认是 inline level，如果想设置宽度要先调整为 inline-block

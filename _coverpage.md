@@ -1,8 +1,8 @@
-# 我的博客 <small></small>
+# blogNotes <small></small>
 
-> 开源学习笔记
+> Home of my open blogs 📖.
 
-- 欢迎您的光临
+- I'm a student and front-end developer
 
 [GitHub](https://github.com/docsifyjs/docsify/)
 [阅读](index/)
