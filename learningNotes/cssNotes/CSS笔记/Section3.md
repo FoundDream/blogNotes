@@ -27,7 +27,7 @@
 
 ### text-align
 
-- 设置文本的对齐方式（其实不仅仅是文本）
+- 设置文本的水平对齐方式（其实不仅仅是文本）
 - 其实是作用于 inline 级元素，效果是相对于父元素。
 - 属性：
   - left
@@ -37,6 +37,16 @@
   - justify：两端对齐
     - 防止有的单词太长，导致对不齐
     - 默认最后一行不生效，如果想生效，可以用 text-align-last
+
+> 给父元素设置 center 后，其所有的 inline-level-box 都会居中
+
+### white-space
+
+- 设置 nowrap 可以保证不换行
+
+### text-overflow
+
+- 设置 ellipsis 可以用省略号
 
 ### word-letter-spaceing
 
@@ -88,7 +98,7 @@
 - 实际是两行文字基线（baseline）之间的间距
   - baseline 是文字底部对齐的线
 - line-height 减去 font-size 后剩余的空间平均分配到上下空白
-  - 所以只需要设置与盒子一样的 line-height，就可以实现文字居中
+  - 所以只需要设置与盒子一样的 line-height，就可以实现文字垂直居中
 
 ![line-height](../../../img/cssNotes/font-size-line-height.png ":size=30%")
 

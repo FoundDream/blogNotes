@@ -1,10 +1,21 @@
 - [<-返回](learningNotes/)
 
 - CSS 学习笔记
+
   - [1. 邂逅 CSS](learningNotes/cssNotes/CSS笔记/Section1)
   - [2. 基础补充知识](learningNotes/cssNotes/CSS笔记/Section2)
   - [3. CSS 文本属性/字体属性](learningNotes/cssNotes/CSS笔记/Section3)
   - [4. CSS 选择器/伪类](learningNotes/cssNotes/CSS笔记/Section4)
   - [5. CSS 继承-层叠-元素类型](learningNotes/cssNotes/CSS笔记/Section5)
   - [6. CSS 盒子模型](learningNotes/cssNotes/CSS笔记/Section6)
-  - [Flex 布局](learningNotes/cssNotes/CSS笔记/flex)
+  - [7. CSS 设置背景](learningNotes/cssNotes/CSS笔记/Section7)
+  - [8. CSS 元素定位](learningNotes/cssNotes/CSS笔记/Section8)
+  - [9. Float 布局](learningNotes/cssNotes/CSS笔记/Section9)
+  - [10. Flex 布局](learningNotes/cssNotes/CSS笔记/Section10)
+  - [11. 动画和 vertical-align](learningNotes/cssNotes/CSS笔记/Section11)
+  - [12. Emmet 和结构伪类](learningNotes/cssNotes/CSS笔记/Section12)
+  - [13. 项目实战注意事项](learningNotes/cssNotes/CSS笔记/Section13)
+  - [14. 额外知识补充](learningNotes/cssNotes/CSS笔记/Section14)
+  - [15. CSS 预处理器](learningNotes/cssNotes/CSS笔记/Section15)
+  - [16. 移动端适配](learningNotes/cssNotes/CSS笔记/Section16)
+  - [17. Grid 布局](learningNotes/cssNotes/CSS笔记/Section17)

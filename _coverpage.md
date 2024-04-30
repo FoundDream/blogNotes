@@ -1,3 +1,5 @@
+![](img/zenaton.svg ":size=6%")
+
 # blogNotes <small></small>
 
 > Home of my open blogs 📖.

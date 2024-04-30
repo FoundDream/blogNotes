@@ -23,8 +23,8 @@
 - 开启 flex 布局的元素叫 flex container
 - flex container 里面的直接子元素叫 flex item
 
-![flex container](../../img/cssNotes/container.svg ":size=25%")
-![flex items](../../img/cssNotes/items.svg ":size=25%")
+![flex container](../../../img/cssNotes/container.svg ":size=25%")
+![flex items](../../../img/cssNotes/items.svg ":size=25%")
 
 ### flex item 的特点
 
@@ -42,7 +42,7 @@
 - main axis 主轴
 - cross axis 交叉轴
 
-![basic-terminology](../../img/cssNotes/basic-terminology.svg ":size=50%")
+![basic-terminology](../../../img/cssNotes/basic-terminology.svg ":size=50%")
 
 ## flex 属性
 
@@ -54,7 +54,7 @@
   - flex-direction 决定了 main axis 的方向，有四个取值
   - row（默认值），row-reverse，column，column-reverse
 
-![container](../../img/cssNotes/flex-direction.svg ":size=35%")
+![container](../../../img/cssNotes/flex-direction.svg ":size=35%")
 
 #### flex-wrap
 
@@ -63,7 +63,7 @@
   - wrap：多行
   - wrap-reverse：多行（比如本来是从上到下，现在是从下到上）
 
-![wrap](../../img/cssNotes/flex-wrap.svg ":size=30%")
+![wrap](../../../img/cssNotes/flex-wrap.svg ":size=30%")
 
 #### flex-flow
 
@@ -80,7 +80,7 @@
   - center：居中对齐
   - baseline：与基准线对齐
 
-![align-items](../../img/cssNotes/align-items.svg ":size=25%")
+![align-items](../../../img/cssNotes/align-items.svg ":size=25%")
 
 #### align-content
 
@@ -99,7 +99,7 @@
     - flex items 之间距离相等
     - flex items 与 main start，main end 之间的距离等于 flex items 之间的距离
 
-![align-content](../../img/cssNotes/align-content.svg ":size=25%")
+![align-content](../../../img/cssNotes/align-content.svg ":size=25%")
 
 #### justify-content
 
@@ -117,7 +117,7 @@
     - flex items 之间距离相等
     - flex items 与 main start，main end 之间的距离等于 flex items 之间的距离
 
-![justify-content](../../img/cssNotes/justify-content.svg ":size=25%")
+![justify-content](../../../img/cssNotes/justify-content.svg ":size=25%")
 
 ### 作用在 flex items 上的属性
 
@@ -127,7 +127,7 @@
   - 可以是任意整数，值小的排前面
   - 默认值是 0
 
-![order](../../img/cssNotes/order.svg ":size=25%")
+![order](../../../img/cssNotes/order.svg ":size=25%")
 
 #### align-self
 
@@ -135,7 +135,7 @@
   - auto（默认值）：直接继承 flex container 的 align-items 设置
   - 单独设置，效果一样
 
-![align-self](../../img/cssNotes/align-self.svg ":size=25%")
+![align-self](../../../img/cssNotes/align-self.svg ":size=25%")
 
 #### flex-grow
 
@@ -148,7 +148,7 @@
   - flex container 的剩余 size \* flex-grow / sum
   - flex items 拓展后的最终 size 不能超过 max-width/max-height
 
-![order](../../img/cssNotes/flex-grow.svg ":size=25%")
+![order](../../../img/cssNotes/flex-grow.svg ":size=25%")
 
 #### flex-shrink
 
@@ -191,13 +191,13 @@
 
 gap, row-gap, column-gap
 
-![gap](../../img/cssNotes/gap-1.svg ":size=25%")
+![gap](../../../img/cssNotes/gap-1.svg ":size=25%")
 
 #### 解决布局问题
 
 如果前面排列都正常，最后一排却不满足要求，我们如何解决问题呢？
 
-![example](../../img/cssNotes/example.png ":size=25%")
+![example](../../../img/cssNotes/example.png ":size=25%")
 
 1. 数学计算
 2. 使用`<span>`来解决  
@@ -206,7 +206,7 @@ gap, row-gap, column-gap
 
 #### 总结图片
 
-![summary](../../img/cssNotes/css-flexbox-poster.png ":size=60%")
+![summary](../../../img/cssNotes/css-flexbox-poster.png ":size=60%")
 
 ### 资源大全：
 

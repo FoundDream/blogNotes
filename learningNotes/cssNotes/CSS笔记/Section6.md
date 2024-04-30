@@ -1,6 +1,6 @@
 # CSS 盒子模型
 
-## 认识盒子模型
+## 1. 认识盒子模型
 
 一般具有四个属性
 
@@ -22,13 +22,14 @@
   - max-width：最大宽度，无论内容多少，宽度都小于或等于 max-width
   - min-height max-height 不常用
 
-> 居中补充:
+> 水平居中补充:
 > `text-align` 用于 inline level;
-> `margin: 0 auto` 用于 block level
+> `margin: 0 auto` 用于 block level  
+> margin 的实际原理是，盒子元素会占据一整行，给一个盒子设置了宽度，还有剩余空间没有占用，默认会把右边填满，这样设置可以让左右去平方空白，做到居中效果
 
 !> 注意: 对于行内级非替换元素来说, 设置宽高是无效的!
 
-## 盒子模型属性
+## 2. 盒子模型属性
 
 ### 内边距 - padding
 
@@ -85,3 +86,60 @@
     - 两个兄弟块级元素之间上下 margin 的折叠
 
 ![collapse](../../../img/cssNotes/collapse.png ":size=80%")
+
+### 外轮廓 - outline
+
+- outline 表示元素的外轮廓
+  - 不占用空间
+  - 默认显示在 border 的外面
+- 属性：
+  - outline-width: 外轮廓的宽度
+  - outline-style：取值跟 border 的样式一样，比如 solid、dotted 等
+  - outline-color: 外轮廓的颜色
+  - outline：outline-width、outline-style、outline-color 的简写属性，跟 border 用法类似
+- 实际应用：
+  - 去除 a 元素、input 元素的 focus 轮廓效果
+
+### 盒子阴影 - box-shadow
+
+- 属性 `<shadow> = inset? && <length>{2,4} && <color>?`
+  - 第 1 个`<length>`：offset-x, 水平方向的偏移，正数往右偏移
+  - 第 2 个`<length>`：offset-y, 垂直方向的偏移，正数往下偏移
+  - 第 3 个`<length>`：blur-radius, 模糊半径
+  - 第 4 个`<length>`：spread-radius, 延伸半径
+  - `<color>`：阴影的颜色，如果没有设置，就跟随 color 属性的颜色
+  - inset：外框阴影变成内框阴影
+- 盒子阴影 – [在线查看](https://html-css-js.com/css/generator/box-shadow/)
+
+### 文字阴影 - text-shadow
+
+- text-shadow 用法类似于 box-shadow，用于给文字添加阴影效果
+- 属性 `<length>{2,3} && <color>?`
+  - 相当于 box-shadow, 它没有 spread-radius 的值
+- [在线查看效果](https://html-css-js.com/css/generator/box-shadow/)
+
+## 3. 注意事项
+
+### 行内非替换元素的注意事项
+
+- 以下属性对行内级非替换元素不起作用
+  - width、height 直接不会生效
+  - margin-top、margin-bottom 直接不会生效
+- 以下属性对行内级非替换元素的效果比较特殊
+  - padding-top、padding-bottom 会生效，但是不占用空间
+  - border-top、border-bottom 会生效，但是不占用空间
+
+### 盒子尺寸计算 - box-sizing
+
+- 用来设置盒子模型中宽高的行为
+- content-box（W3C 标准盒子模型）
+  - padding，border 都布置在 width，height 的外边
+- border-box（IE 盒子模型（IE8 以下浏览器））
+  - pading，border 都布置在 width，height 的里面
+
+### 一些思考题
+
+- 背景色有没有设置到 border 下面？
+  - 有设置，会给盒子模型所有属性都设置
+- border 如果没有设置颜色，会使用什么颜色？
+  - 如果设置了前景色（color 属性），会使用 color

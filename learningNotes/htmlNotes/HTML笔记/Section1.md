@@ -1,6 +1,6 @@
 # HTML 常见的元素
 
-## 完整的 HTML 结构
+## 1. 完整的 HTML 结构
 
 ### 文档声明
 
@@ -154,7 +154,7 @@
   - 已弃用
 - 更多元素可查看[MDN 文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
 
-## HTML 的全局属性
+## 2. HTML 的全局属性
 
 - 我们发现某些属性只能在特定元素
   - img 中的 src，a 中的 href

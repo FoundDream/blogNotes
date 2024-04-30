@@ -7,6 +7,10 @@
 
   - [CSS 笔记](learningNotes/cssNotes/CSS笔记/Section1)
 
+- JavaScript 学习笔记
+
+  - [JavaScript 笔记](learningNotes/javascriptNotes/JavaScript笔记/Section1)
+
 - Git 学习笔记
 
   - [Git 笔记](learningNotes/gitNotes/git笔记/Section0)

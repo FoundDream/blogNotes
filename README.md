@@ -2,6 +2,8 @@
 
 本站源码以及全部内容：[Github 链接](https://github.com/FoundDream/blogNotes)
 
+网站预览：[Preview](www.ziwen.xyz)
+
 本站使用技术栈：
 
 - docisfy 网站框架
