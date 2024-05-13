@@ -9,7 +9,7 @@
 
 - JavaScript 学习笔记
 
-  - [JavaScript 笔记](learningNotes/javascriptNotes/JavaScript笔记/Section1)
+  - [JavaScript 高级](learningNotes/javascriptNotes/JavaScript笔记/Section1)
 
 - Git 学习笔记
 
