@@ -11,6 +11,8 @@
 
   - [JavaScript 高级](learningNotes/javascriptNotes/JavaScript笔记/Section1)
 
-- Git 学习笔记
+- 前端工程化基础
 
-  - [Git 笔记](learningNotes/gitNotes/git笔记/Section0)
+  - [Nodejs 笔记](learningNotes/feProject/Nodejs/Section0)
+  - [Module 笔记](learningNotes/feProject/module笔记/Section0)
+  - [Git 笔记](learningNotes/feProject/Git笔记/Section0)
